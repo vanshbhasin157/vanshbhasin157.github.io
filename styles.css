@@ -1,0 +1,706 @@
+	
+	.affix{
+		width: 100%;
+		
+	}
+	.profile-icon{
+		padding-top: 40px;
+	}
+	.text-port{
+		
+		color: #fff;
+		font-size: 24px;
+	}
+	.skills-bar{
+		width: 500px;
+		margin: 100px ;
+		color: #294b40;
+		list-style: none;
+		padding: 0;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 24px;
+	}
+	.skills-bar li{
+		margin: 20px 0;
+	}
+	.bar{
+		background: #294b40;
+		display: block;
+		height: 10px;
+		border: 1px solid rgba(0,0,0,0.3);
+		border-radius: 3px;
+		overflow: hidden;
+		box-shadow: 0 0 10px #46927a;
+
+	}
+	.bar span{
+		height: 10px;
+		float: left;
+		background: #48aa8b;
+
+	}
+	.html{
+		width: 90%;
+		animation: html 2s;
+	}
+	.css{
+		width: 90%;
+		animation: css 2s;
+	}
+	.python{
+		width: 70%;
+		animation: python 2s;
+	}
+	.django{
+		width: 60%;
+		animation: django 2s;
+	}
+	.flutter{
+		width: 60%;
+		animation: flutter 2s;
+	}
+	.java{
+		width: 50%;
+		animation: java 2s;
+	}
+	.reactnative{
+		width: 40%;
+		animation: reactnative 2s;
+	}
+	.Skills{
+		font-family: 'Open Sans', sans-serif;
+		color: #294b40;
+		font-size: 54px;
+		margin-left: 100px;
+	}
+	p{
+		font-family: 'Open Sans', sans-serif;
+		color: #294b40;
+		font-size: 24px;
+		margin-left: 100px;
+	}
+	.resume-date{
+		font-family: 'Open Sans', sans-serif;
+		color: #294b40;
+		font-size: 25px;
+		margin-left: 100px;
+	}
+	.exp{
+		font-family: 'Open Sans', sans-serif;
+		color: #294b40;
+		font-size: 54px;
+		margin-left: 100px;
+		
+	}
+	.resume-content .Desg{
+		font-family: 'Open Sans', sans-serif;
+		color: #294b40;
+		font-size: 35px;
+		margin-left: 100px;
+		
+	}
+	.subheading{
+		font-family: 'Open Sans', sans-serif;
+		color: #294b40;
+		font-size: 30px;
+		margin-left: 100px;
+	}
+	.et_pb_button {
+		display: inline-block;
+		margin: 10px; /* space between buttons */
+		padding: 15px 30px;
+		background: #294b40;
+		color: #fff;
+		cursor: pointer;
+		font-size: 20px;
+		border-radius: 10px;
+		font-family: 'Open Sans', sans-serif;
+	}
+	.et_pb_button:hover{
+		transform: scale(1);
+		transition: 350ms;
+		text-decoration: none;
+		background-color:#1f3b32;
+		color: #fff;
+		
+	}
+	.profile-facebook-icon{
+		font-size: 45px;
+		color: #fff;
+		margin-left: 6px;
+		transform: scale(1);
+		transition: 350ms;
+	}
+	.profile-facebook-icon:hover{
+		transition: 350ms;
+		color: #3b5998;
+		transform: scale(1.2);
+	}
+	.profile-instagram-icon{
+		font-size: 45px;
+		color: #fff;
+		margin-left: 6px;
+		transform: scale(1);
+		transition: 350ms;
+	}
+	.profile-instagram-icon:hover{
+		transition: 350ms;
+		color: #fb3958;
+		transform: scale(1.2);
+	}
+	.profile-github-icon{
+		font-size: 45px;
+		color: #fff;
+		margin-left: 6px;
+		transform: scale(1);
+		transition: 350ms;
+	}
+	.profile-github-icon:hover{
+		transition: 350ms;
+		color: #6e5494;
+		transform: scale(1.2);
+	}
+.profile-twitter-icon{
+		font-size: 45px;
+		color: #fff;
+		margin-left: 6px;
+		transform: scale(1);
+		transition: 350ms;
+	}
+	.profile-twitter-icon:hover{
+		transition: 350ms;
+		color: #1DA1F2;
+		transform: scale(1.2);
+	}
+
+	.profile-mail-icon{
+		font-size: 45px;
+		color: #fff;
+		margin-left: 6px;
+		transition: 350ms;
+		transform: scale(1);
+	}
+	.profile-mail-icon:hover{
+		transition: 350ms;
+		color: #D44638;
+		transform: scale(1.2);
+	}
+	.profile-link-icon{
+		font-size: 45px;
+		color: #fff;
+		margin-left: 6px;
+		transition: 350ms;
+		transform: scale(1);
+	}
+	.profile-link-icon:hover{
+		transition: 350ms;
+		color: #0077B5;
+		transform: scale(1.2);
+	}
+	.profile-container{
+		padding-top: 15px;
+	}
+	.name{
+		font-size: 50px;
+		color: #fff;
+		padding-top: 20px;
+		font-family: 'Open Sans', sans-serif;
+	}
+	.divider-custom {
+		margin: 1.25rem 0 1.5rem;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+	  }
+	  .des{
+		font-size: 40px;
+		color: #fff;
+		padding-top: 10px;
+		font-family: 'Open Sans', sans-serif;;
+	  }
+	  .divider-custom .divider-custom-line {
+		width: 100%;
+		max-width: 7rem;
+		height: 0.25rem;
+		background-color: #2c3e50;
+		border-radius: 1rem;
+		border-color: #2c3e50 !important;
+	  }
+	  .divider-custom .divider-custom-line:first-child {
+		margin-right: 1rem;
+	  }
+	  .divider-custom .divider-custom-line:last-child {
+		margin-left: 1rem;
+	  }
+	  .divider-custom .divider-custom-icon {
+		color: #2c3e50 !important;
+		font-size: 3rem;
+	  }
+	  .divider-custom.divider-light .divider-custom-line {
+		background-color: #fff;
+	  }
+	  .divider-custom.divider-light .divider-custom-icon {
+		color: #fff !important;
+	  }
+	  .divider-custom.divider-dark .divider-custom-line {
+		background-color: #294b40!important;
+	  }
+	  .divider-custom.divider-dark .divider-custom-icon {
+		color: #294b40!important;
+	  }
+	.nav-custom{
+		background:#13130e!important;
+		transition: 500ms;
+		z-index: 10;
+		border-radius: 0;
+		min-height: 100px;
+		padding-top: 20px;
+		padding-left: 50px;
+		font-size: 25px;
+	}
+	.navbar-brand{
+		font-size: 25px;
+		font-family: 'Open Sans', sans-serif!important;
+	}
+	.navbar-brand:hover{
+		transition: 350ms;
+		transform: scale(1.2);
+	}
+	.navbar-link:hover{
+		transition: 350ms;
+		transform: scale(1.2);
+		color: #294b40!important;
+
+	}
+	.profile-image{
+		border-radius: 50%!important;
+	}
+
+
+	.nav-active{
+		background: #13130e!important;
+		transition: 500ms;
+	}
+
+	.navbar-link{
+		cursor: pointer;
+		font-family: 'Open Sans', sans-serif;
+	}
+	
+
+	.home{
+		padding: 220px 0 220px 0;
+		transition: 700ms;
+		background-color:  #294b40;
+		
+	}
+
+	 .about-title{
+		font-size: 54px;
+		color: #294b40!important;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.about-text{
+		font-size: 24px;
+		color: #fff;
+		font-family: 'Open Sans', sans-serif;
+		padding-bottom: 20px;
+	}
+
+	.home-line-icon{
+		font-size: 32px;
+		transition: 350ms;
+		color: #fff;
+		margin-right: 6px;
+		transform: scale(1);
+	}
+	
+	.about{
+		padding: 180px 0 80px 0;
+		
+		
+	}
+
+	.home-line-icon:hover{
+		transition: 350ms;
+		color: #151313;
+		transform: scale(1.2);
+	}
+
+	.about-title, .about-text{
+		color: #151313;
+	}
+	.contact{
+		padding: 220px 0 150px 0;
+		background: #f8f8f8;
+	}
+
+	.contact-title{
+		font-size: 50px;
+		color: #151313;
+		font-family: 'Titillium Web', sans-serif;
+		text-align: center;
+
+	}
+	.contact-text{
+		font-size: 22px;
+		color: #151313;
+		text-align: center;
+	}
+	.contact-facebook-icon{
+		font-size: 45px;
+		color: #151313;
+		margin-left: 6px;
+		transform: scale(1);
+		transition: 350ms;
+	}
+	.contact-facebook-icon:hover{
+		transition: 350ms;
+		color: #3b5998;
+		transform: scale(1.2);
+	}
+	.contact-instagram-icon{
+		font-size: 45px;
+		color: #151313;
+		margin-left: 6px;
+		transform: scale(1);
+		transition: 350ms;
+	}
+	.contact-instagram-icon:hover{
+		transition: 350ms;
+		color: #fb3958;
+		transform: scale(1.2);
+	}
+	.contact-github-icon{
+		font-size: 45px;
+		color: #151313;
+		margin-left: 6px;
+		transform: scale(1);
+		transition: 350ms;
+	}
+	.contact-github-icon:hover{
+		transition: 350ms;
+		color: #6e5494;
+		transform: scale(1.2);
+	}
+.contact-twitter-icon{
+		font-size: 45px;
+		color: #151313;
+		margin-left: 6px;
+		transform: scale(1);
+		transition: 350ms;
+	}
+	.contact-twitter-icon:hover{
+		transition: 350ms;
+		color: #1DA1F2;
+		transform: scale(1.2);
+	}
+
+	.contact-mail-icon{
+		font-size: 45px;
+		color: #151313;
+		margin-left: 6px;
+		transition: 350ms;
+		transform: scale(1);
+	}
+	.contact-mail-icon:hover{
+		transition: 350ms;
+		color: #D44638;
+		transform: scale(1.2);
+	}
+	.contact-link-icon{
+		font-size: 45px;
+		color: #151313;
+		margin-left: 6px;
+		transition: 350ms;
+		transform: scale(1);
+	}
+	.contact-link-icon:hover{
+		transition: 350ms;
+		color: #0077B5;
+		transform: scale(1.2);
+	}
+	.end-text{
+		font-size: 25px;
+		color:#151313;
+	}
+
+	.mail-drop{
+		text-decoration: underline;
+		text-decoration-style: dotted;
+		cursor: pointer;
+	}
+	.button-row{
+		display: inline-flex;
+  
+	}
+
+	.button{
+		padding: 20px 32px;
+		background: #151313;
+		color: #fff;
+		cursor: pointer;
+		font-size: 20px;
+	}
+	.projects{
+		padding: 220px 0 220px 0;
+		background:  #294b40;
+	}
+	.section-heading{
+		font-size: 54px;
+		color: #fff;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.project{
+		padding: 40px;
+	}
+
+	.project-1{
+		background:#909090 ;
+		margin-top: 20px;
+		padding: 20px 0 40px 0;
+	}
+	.project-2{
+		background:#909090 ;
+		margin-top: 20px;
+		padding: 20px 0 40px 0;
+	}
+	.project-3{
+		margin-top: 20px;
+		padding: 20px 0 40px 0;
+		background: #909090;
+	}
+
+	.bttn{
+		padding: 18px 12px;
+		box-shadow: 0 0 0 0 #ff5252 inset;
+		cursor: pointer;
+		transition: 700ms;
+		color: #151313;
+		font-family: 'Titillium Web', sans-serif;
+		font-size: 20px;
+	}
+
+	.bttn:hover{
+		box-shadow: 0 -15em 0 0 #ff5252 inset;
+		color: #fff;
+		transition: 700ms;
+	}
+
+	@media(max-width: 992px){
+
+		.home-title, .about-title{
+			font-size: 32px;
+		}
+
+		.home-text, .about-text{
+			font-size: 16px;
+		}
+
+		.contact-title{
+
+			font-size: 32px;
+		}
+
+		.contact-text{
+
+			font-size: 18px;
+		}
+
+		.end-text{
+
+			font-size: 15px;
+		}
+
+		.home-line-icon{
+
+			font-size: 32px;
+		}
+
+		.button{
+			font-size: 15px;
+		}
+
+		.contact-facebook-icon{
+
+			font-size: 25px;
+
+		}
+		.contact-instagram-icon{
+
+			font-size: 25px;
+
+		}
+		.contact-github-icon{
+
+			font-size: 25px;
+
+		}
+		.contact-twitter-icon{
+
+			font-size: 25px;
+
+		}
+		.contact-mail-icon{
+
+			font-size: 25px;
+
+		}
+		.contact-link-icon{
+
+			font-size: 25px;
+
+		}
+
+
+
+	}
+
+
+	@media(max-width: 767px){
+
+		.home-title, .about-title{
+			font-size: 24px;
+		}
+
+		.home-text, .about-text{
+			font-size: 12px;
+		}
+
+		.contact-title{
+
+			font-size: 22px;
+		}
+
+		.contact-text{
+
+			font-size: 15px;
+		}
+
+		.end-text{
+
+			font-size: 15px;
+		}
+
+		.home-line-icon{
+
+			font-size: 22px;
+		}
+
+
+		.button{
+			font-size: 15px;
+		}
+
+		.contact-facebook-icon{
+
+			font-size: 25px;
+		}
+		.contact-instagram-icon{
+			
+			font-size: 25px;
+
+		}
+		.contact-github-icon{
+
+			font-size: 25px;
+
+		}
+		.contact-twitter-icon{
+			font-size: 25px;
+		}
+		.contact-mail-icon{
+			font-size: 25px;
+		}
+		.contact-link-icon{
+			font-size: 25px;
+		}
+		#portfolio .portfolio-item {
+			max-width: 25rem;
+			margin-left: auto;
+			margin-right: auto;
+		  }
+		  #portfolio .portfolio-item .portfolio-link {
+			position: relative;
+			display: block;
+			margin: 0 auto;
+		  }
+		  #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+			display: flex;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: rgba(254, 209, 54, 0.9);
+			align-items: center;
+			justify-content: center;
+			opacity: 0;
+			transition: opacity ease-in-out 0.25s;
+		  }
+		  #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+			font-size: 1.25rem;
+			color: white;
+		  }
+		  #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
+			opacity: 1;
+		  }
+		  #portfolio .portfolio-item .portfolio-caption {
+			padding: 1.5rem;
+			text-align: center;
+			background-color: #fff;
+		  }
+		  #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+			font-size: 1.5rem;
+			font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+			font-weight: 700;
+			margin-bottom: 0;
+		  }
+		  #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+			font-style: italic;
+			font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+		  }
+		  
+		  .portfolio-modal .modal-dialog {
+			margin: 1rem;
+			max-width: 100vw;
+		  }
+		  .portfolio-modal .modal-content {
+			padding-top: 6rem;
+			padding-bottom: 6rem;
+			text-align: center;
+		  }
+		  .portfolio-modal .modal-content h2 {
+			font-size: 3rem;
+			line-height: 3rem;
+		  }
+		  .portfolio-modal .modal-content p.item-intro {
+			font-style: italic;
+			margin-bottom: 2rem;
+			font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+		  }
+		  .portfolio-modal .modal-content p {
+			margin-bottom: 2rem;
+		  }
+		  .portfolio-modal .modal-content ul.list-inline {
+			margin-bottom: 2rem;
+		  }
+		  .portfolio-modal .modal-content img {
+			margin-bottom: 2rem;
+		  }
+		  .portfolio-modal .close-modal {
+			position: absolute;
+			top: 1.5rem;
+			right: 1.5rem;
+			width: 3rem;
+			height: 3rem;
+			cursor: pointer;
+			background-color: transparent;
+		  }
+		  .portfolio-modal .close-modal:hover {
+			opacity: 0.3;
+		  }
+		  
+	}

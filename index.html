@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vansh Bhasin</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/73e068cb55.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script type="text/javascript">
+	
+	$(function(){
+
+		$(window).scroll(function(){
+			var y = $('html, body').scrollTop()
+			if(y>120){
+				$('.nav-custom').addClass('nav-active')
+			}
+			else{
+				$('.nav-custom').removeClass('nav-active')
+			}
+		})
+
+		$('.home-link, .navbar-brand').click(function(){
+			var h = $('.home').offset().top
+			$('html, body').animate({scrollTop: h}, 500)
+		})
+
+
+		$('.about-link').click(function(){
+			var a = $('.about').offset().top
+			$('html, body').animate({scrollTop: a}, 500)
+		})
+
+		$('.contact-link').click(function(){
+			var c = $('.contact').offset().top
+			$('html, body').animate({scrollTop: c}, 500)
+		})
+
+		$('.navbar-collapse ul li a').click(function() {
+        $('.navbar-toggle:visible').click();
+    });
+
+		setInterval(function(){
+			var x = $(window).height()
+			var padd;
+			padd = x - 60
+			padd = padd / 2
+			$('.home').css('padding-top', padd-100)
+			$('.home').css('padding-bottom', padd)
+		}, 300)
+
+		$('.mail-drop').click(function(){
+			window.open("mailto:vanshbhasin157@gmail.com")
+		})
+
+		$('.button').click(function(){
+			window.open("resume.pdf")
+		})
+
+	})
+
+</script>
+<body>
+<nav class="navbar navbar-inverse nav-custom" data-spy="affix">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+	  </button>
+      <a class="navbar-brand" href="#">Vansh Bhasin</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="navbar-link home-link">Home</a></li>
+        <li><a class="navbar-link about-link">About</a></li>
+        <li><a class="navbar-link contact-link">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="home">
+	<div class="profile-container">
+		<center>
+			<div class="profile-image">
+				<img src="profile.jpg" alt="Avatar" class="img-circle" style="width:300px">
+			</div>
+			<div class="name">Vansh Bhasin</div>
+			<div class="divider-custom divider-light">
+				<div class="divider-custom-line"></div>
+				<div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+				<div class="divider-custom-line"></div>
+			</div>
+			<div class="des">Designer - Developer </div>
+			<div class="row">
+				<div class="col-md-4 col-md-offset-4 text-center profile-icon">
+					<ul class="list-inline">
+				  <li class="list-inline-item">
+					<a href="https://facebook.com/vanshbhasin157" target=_blank>
+					  <i class="fa fa-facebook profile-facebook-icon"></i>
+					</a>
+				  </li>
+				   <li class="list-inline-item">
+					<a href="https://www.instagram.com/vanshbhasin157" target=_blank>
+					  <i class="fa fa-instagram profile-instagram-icon"></i>
+					</a>
+				  </li>
+				   <li class="list-inline-item">
+					<a href="https://twitter.com/BhasinVansh" target=_blank>
+					  <i class="fa fa-twitter profile-twitter-icon"></i>
+					</a>
+				  </li>
+				   <li class="list-inline-item">
+					<a href="https://github.com/vanshbhasin157" target=_blank>
+					  <i class="fa fa-github profile-github-icon"></i>
+					</a>
+				  </li>
+				  <li class="list-inline-item">
+					<a href="https://www.linkedin.com/in/vansh-bhasin-a223ba170/" target=_blank>
+					  <i class="fa fa-linkedin profile-link-icon"></i>
+					</a>
+				  </li>
+				   
+		</ul> 
+
+			
+	</div>
+			
+		</center>
+	</div>
+</div>
+</div>
+<div class="about">
+	<center>
+	<div class="container">
+		<div class="row">
+			<div class="about-title">AboutMe</div>
+		</div>
+		<div class="divider-custom divider-dark">
+			<div class="divider-custom-line"></div>
+			<div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+			<div class="divider-custom-line"></div>
+		</div>
+		
+		<div class="row">
+			<div class="about-text">
+				My name is Vansh Bhasin. I&apos;m a tech enthusiast. I'm a frontend designer and back end developer to be specific. I am a committed member of the Developer Student Clubs, Bharati Vidyapeeth Pune.
+				I love working on new exciting projects. Currently I'm working on Django and Flutter related projects. Interested in working together? Just drop me a <span class="mail-drop">line</span>.
+			</div>
+		</div>
+			<div class="row">
+				<a class="et_pb_button" title="Resume" >My Resume</a><a class="et_pb_button" title="Github" href="https://github.com/vanshbhasin157"> My Github  </a>					
+				</div>
+			</div>
+	</div>
+</center>
+<hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5 exp">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0 Desg">Core Team Member</h3>
+            <div class="subheading mb-3">Developer Student Clubs, Bharati Vidyapeeth Pune </div>
+            <p>At Developer Student Clubs we strive for learning and teaching. Under one roof developers, designers, and managers come together to build a culture that encourages thousands. My primary role is to take workshops and hold events.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Feburary 2019 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0 Desg">Web Designer</h3>
+            <div class="subheading mb-3">Google Developers Group, Pune</div>
+            <p>Google Developers Group Pune is an initiative to concentrate the efforts of many developers in and around Pune to learn, share and get productive using the various Google products. As a web designer, my primary role inludes maintaining and updating the website from time to time. The website I made attracted more than 4,000 views in a period of about a week.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">July 2019 - Present</span>
+          </div>
+        </div>
+
+
+      </div>
+
+	</section>
+	<hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+		<h2 class="mb-5 Skills">Skills</h2>
+		<br><br>
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+		<div class="skills-bar">
+		<li>
+			<h3>HTML5</h3><span class="bar"><span class="html"></span></span>
+		</li>
+		<li>
+		
+			<h3>CSS3</h3><span class="bar"><span class="css"></span></span>
+		</li>
+		<li>
+		
+			<h3>Python</h3><span class="bar"><span class="python"></span></span>
+		</li>
+		<li>
+		
+			<h3>Django</h3><span class="bar"><span class="django"></span></span>
+		</li>
+		<li>
+		
+			<h3>Flutter</h3><span class="bar"><span class="flutter"></span></span>
+		</li>
+		<li>
+		
+			<h3>Java</h3><span class="bar"><span class="java"></span></span>
+		</li>
+		<li>
+		
+			<h3>React Native</h3><span class="bar"><span class="reactnative"></span></span>
+		</li>
+	</div>
+    </section>
+
+
+</div>
+ <div class="projects">
+		<div class="container">
+			<div class="text-center">
+				<h2 class="section-heading text-uppercase">Portfolio</h2>
+				<div class="divider-custom divider-light">
+					<div class="divider-custom-line"></div>
+					<div class="divider-custom-icon"><i class="fa fa-star"></i></div>
+					<div class="divider-custom-line"></div>
+				</div>
+			</div>	
+			<div class="container col-md-2">
+				<div class="row">
+					<img src="logo1.png" alt="Avatar"  style="width:150px">
+					<div class="text-port ">Book Exchanger</div>	
+				</div>				
+			</div>
+			
+			<div class="container col-md-2 col-md-offset-3 ">
+				<div class="row">
+				<img src="atn.png" alt="Avatar" class="img-circle" style="width:150px">
+				<div class="text-port ">Scan-Q</div>
+			</div>
+			</div>
+			<div class="container col-md-2 col-md-offset-3">
+				<div class="row">
+				<img src="atn.png" alt="Avatar" class="img-circle" style="width:150px">
+				<div class="text-port ">Scan-Q</div>
+			</div>
+			</div>
+			
+		</div>
+</div>  
+<div class="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 contact-title">
+				Get In Touch
+				<br><br>
+			</div>
+		</div>
+		<div class="row">
+					<div class="col-md-6 col-md-offset-3 contact-text">
+						Feel like we could create something innovative? Hit me up on any of your favorite platforms
+					</div>
+		</div>
+					<br><br><br>
+			<div class="row">
+					<div class="col-md-4 col-md-offset-4 text-center contact-icon">
+						<ul class="list-inline">
+		              <li class="list-inline-item">
+		                <a href="https://facebook.com/vanshbhasin157" target=_blank>
+		                  <i class="fa fa-facebook contact-facebook-icon"></i>
+		                </a>
+		              </li>
+		               <li class="list-inline-item">
+		                <a href="https://www.instagram.com/vanshbhasin157" target=_blank>
+		                  <i class="fa fa-instagram contact-instagram-icon"></i>
+		                </a>
+		              </li>
+		               <li class="list-inline-item">
+		                <a href="https://twitter.com/BhasinVansh" target=_blank>
+		                  <i class="fa fa-twitter contact-twitter-icon"></i>
+		                </a>
+		              </li>
+		               <li class="list-inline-item">
+		                <a href="https://github.com/vanshbhasin157" target=_blank>
+		                  <i class="fa fa-github contact-github-icon"></i>
+		                </a>
+		              </li>
+		              <li class="list-inline-item">
+		                <a href="https://www.linkedin.com/in/vansh-bhasin-a223ba170/" target=_blank>
+		                  <i class="fa fa-linkedin contact-link-icon"></i>
+		                </a>
+		              </li>
+		               
+            </ul> 
+
+				
+		</div>
+
+	</div>
+	<br><br><br>
+	<div class="row">
+		<div class="col-md-4 col-md-offset-4 text-center end-text ">
+			Made By Vansh Bhasin
+			</div>
+	</div>
+</div>	
+</body>
+</html>
