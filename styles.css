@@ -8,8 +8,8 @@
 	}
 	.text-port{
 		
-		color: #fff;
-		font-size: 24px;
+		color: #111;
+		font-size: 28px;
 	}
 	.skills-bar{
 		width: 500px;
@@ -40,32 +40,32 @@
 
 	}
 	.html{
-		width: 90%;
-		animation: html 2s;
+		width: 100%;
+		animation: html 3s;
 	}
 	.css{
 		width: 90%;
-		animation: css 2s;
+		animation: css 3s;
 	}
 	.python{
 		width: 70%;
-		animation: python 2s;
+		animation: python 3s;
 	}
 	.django{
 		width: 60%;
-		animation: django 2s;
+		animation: django 3s;
 	}
 	.flutter{
 		width: 60%;
-		animation: flutter 2s;
+		animation: flutter 3s;
 	}
 	.java{
 		width: 50%;
-		animation: java 2s;
+		animation: java 3s;
 	}
 	.reactnative{
 		width: 40%;
-		animation: reactnative 2s;
+		animation: reactnative 3s;
 	}
 	.Skills{
 		font-family: 'Open Sans', sans-serif;
